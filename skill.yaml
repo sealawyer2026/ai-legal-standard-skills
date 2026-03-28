@@ -1,0 +1,38 @@
+name: AI律师标准技能包
+version: 1.0.0
+description: AI律师团队协作全球标准v1.8完整技能包，包含评估、实施、培训、合规、ROI计算5个核心技能
+author: 阿拉丁
+guidance: 张海洋
+standard: AI律师团队协作全球标准 v1.8
+
+skills:
+  - name: 标准自动化评估系统
+    file: standard-assessment/evaluate.js
+    description: 自动评估客户适配度，生成专业评估报告
+  - name: 标准实施导航系统
+    file: standard-implementation/navigation.js
+    description: 生成5阶段实施路径，含任务分解和风险管理
+  - name: 标准培训自动化生成器
+    file: training-generator/course-generator.js
+    description: 自动生成培训课程、PPT大纲、练习题库、证书模板
+  - name: 标准合规检查器
+    file: compliance-checker/compliance-checker.js
+    description: 检查《网络安全法》《个人信息保护法》《律师法》等法规合规性
+  - name: 标准ROI计算器
+    file: roi-calculator/roi-calculator.js
+    description: 自动计算投资回报率、回本期、利润率
+
+tags:
+  - ai-legal
+  - standard
+  - assessment
+  - implementation
+  - training
+  - compliance
+  - roi
+
+license: MIT
+
+contact:
+  developer: 阿拉丁
+  guidance: 张海洋
