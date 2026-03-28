@@ -1,0 +1,25 @@
+{
+  "name": "标准自动化评估系统",
+  "version": "1.0.0",
+  "description": "自动评估律所/企业对AI律师标准的适配度，生成详细评估报告",
+  "author": "阿拉丁",
+  "category": "AI律师标准工具",
+  "tags": ["评估", "标准", "AI律师", "自动化"],
+  "runtime": "nodejs",
+  "main": "evaluate.js",
+  "dependencies": {
+    "openai": "^4.20.0",
+    "axios": "^1.6.0",
+    "fs-extra": "^11.1.0"
+  },
+  "features": [
+    "自动评估问卷生成",
+    "智能评分算法",
+    "详细评估报告生成",
+    "优化建议推荐",
+    "多格式输出支持"
+  ],
+  "output_formats": ["json", "markdown", "pdf"],
+  "license": "MIT",
+  "repository": "legal-ai-team/skills/standard-assessment"
+}
