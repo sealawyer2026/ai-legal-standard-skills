@@ -1,0 +1,31 @@
+{
+  "name": "ai-legal-standard-skills",
+  "version": "1.0.0",
+  "description": "AI律师团队协作全球标准所需技能包",
+  "author": "阿拉拉丁",
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "test:assessment": "node standard-assessment/evaluate.js",
+    "test:implementation": "node standard-implementation/navigation.js",
+    "test:all": "npm run test:assessment && npm run test:implementation",
+    "generate:example": "node scripts/generate-example.js"
+  },
+  "dependencies": {
+    "openai": "^4.20.0",
+    "axios": "^1.6.0",
+    "fs-extra": "^11.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.0"
+  },
+  "keywords": [
+    "ai",
+    "legal",
+    "standard",
+    "assessment",
+    "implementation",
+    "automation"
+  ],
+  "repository": "https://github.com/legal-ai-team/standard-skills"
+}
